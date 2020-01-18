@@ -31,8 +31,11 @@ public class YourOrderPleaseShould {
         public static String orderPhrase(String phrase) {
             if (!containsAnyWhiteSpace(phrase)) return phrase;
             List<String> separateWords = Arrays.asList(phrase.split(" "));
-
             separateWords.sort(byIndex());
+            return concatWords(separateWords);
+        }
+
+        private static String concatWords(List<String> separateWords) {
             String orderedPhrase = "";
             for (String word: separateWords) {
                 orderedPhrase += word + " ";
