@@ -8,6 +8,11 @@ public class YourOrderPlease_ {
         assertThat(YourOrderPlease.orderPhrase("")).isEqualTo("");
     }
 
+    @Test
+    public void should_not_order_when_string_has_one_word() {
+        assertThat(YourOrderPlease.orderPhrase("H1ello")).isEqualTo("H1ello");
+    }
+
     private static class YourOrderPlease {
         public static String orderPhrase(String phrase) {
             return "";
