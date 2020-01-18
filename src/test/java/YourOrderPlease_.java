@@ -13,6 +13,11 @@ public class YourOrderPlease_ {
         assertThat(YourOrderPlease.orderPhrase("H1ello")).isEqualTo("H1ello");
     }
 
+    @Test
+    public void should_order_when_string_has_two_word() {
+        assertThat(YourOrderPlease.orderPhrase("Jos2eph H1ello")).isEqualTo("H1ello Jos2eph");
+    }
+
     private static class YourOrderPlease {
         public static String orderPhrase(String phrase) {
             return phrase;

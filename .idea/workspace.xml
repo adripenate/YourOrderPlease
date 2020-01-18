@@ -122,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.YourOrderPlease_ (1)">
+  <component name="RunManager" selected="JUnit.YourOrderPlease_.should_order_when_string_has_two_word">
     <configuration name="YourOrderPlease_ (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YourOrderPlease" />
       <option name="PACKAGE_NAME" value="" />
@@ -137,16 +137,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="YourOrderPlease_" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YourOrderPlease_.should_give_a_empty_string_when_is_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="YourOrderPlease" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="YourOrderPlease_" />
-      <option name="METHOD_NAME" value="should_give_a_empty_string_when_is_empty" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,13 +161,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YourOrderPlease_.should_order_when_string_has_two_word" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YourOrderPlease" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YourOrderPlease_" />
+      <option name="METHOD_NAME" value="should_order_when_string_has_two_word" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.YourOrderPlease_.should_order_when_string_has_two_word" />
         <item itemvalue="JUnit.YourOrderPlease_ (1)" />
         <item itemvalue="JUnit.YourOrderPlease_" />
         <item itemvalue="JUnit.YourOrderPlease_.should_not_order_when_string_has_one_word" />
         <item itemvalue="JUnit.YourOrderPlease_.should_not_order_when_string_is_empty" />
-        <item itemvalue="JUnit.YourOrderPlease_.should_give_a_empty_string_when_is_empty" />
       </list>
     </recent_temporary>
   </component>
