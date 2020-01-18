@@ -10,7 +10,7 @@ public class YourOrderPlease_ {
 
     private static class YourOrderPlease {
         public static String orderPhrase(String phrase) {
-            return null;
+            return "";
         }
     }
 }
