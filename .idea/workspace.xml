@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3cbcb024-9e71-4d11-99ab-790adec7d756" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/YourOrderPlease_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YourOrderPleaseShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YourOrderPleaseShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YourOrderPleaseShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,14 +31,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/YourOrderPleaseShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="192">
+              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#162#163#0" expanded="true" />
                 <element signature="e#235#236#0" expanded="true" />
                 <element signature="e#946#947#0" expanded="true" />
                 <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1817#1818#0" expanded="true" />
+                <element signature="e#1880#1881#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.YourOrderPleaseShould (2)">
+  <component name="RunManager" selected="JUnit.YourOrderPleaseShould (3)">
     <configuration name="YourOrderPleaseShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YourOrderPlease" />
       <option name="PACKAGE_NAME" value="" />
@@ -136,6 +138,15 @@
       </method>
     </configuration>
     <configuration name="YourOrderPleaseShould (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YourOrderPlease" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YourOrderPleaseShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YourOrderPleaseShould (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YourOrderPlease" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="YourOrderPleaseShould" />
@@ -182,9 +193,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.YourOrderPleaseShould (3)" />
         <item itemvalue="JUnit.YourOrderPleaseShould (2)" />
         <item itemvalue="JUnit.YourOrderPleaseShould (1)" />
-        <item itemvalue="JUnit.YourOrderPleaseShould" />
         <item itemvalue="JUnit.YourOrderPleaseShould" />
         <item itemvalue="JUnit.YourOrderPleaseShould" />
       </list>
@@ -264,16 +275,31 @@
       <option name="project" value="LOCAL" />
       <updated>1579348847234</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Refactor - Class name changed">
+      <created>1579348881570</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579348881570</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Refactor - Tests' names changed">
+      <created>1579348957484</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579348957484</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Refactor - Anonymous extracted in a method">
+      <created>1579349117258</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579349117258</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YourOrderPlease__should_order_when_string_has_two_word - 2020.01.18 at 11h 17m 58s.xml">
-      <configuration name="YourOrderPlease_.should_order_when_string_has_two_word" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YourOrderPlease__(2) - 2020.01.18 at 11h 23m 29s.xml">
-      <configuration name="YourOrderPlease_ (2)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="YourOrderPlease__(3) - 2020.01.18 at 11h 23m 39s.xml">
       <configuration name="YourOrderPlease_ (3)" configurationId="JUnit" />
     </history-entry>
@@ -298,6 +324,12 @@
     <history-entry file="YourOrderPlease__(2) - 2020.01.18 at 11h 57m 53s.xml">
       <configuration name="YourOrderPlease_ (2)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="YourOrderPleaseShould_(1) - 2020.01.18 at 12h 02m 04s.xml">
+      <configuration name="YourOrderPleaseShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YourOrderPleaseShould_(2) - 2020.01.18 at 12h 04m 22s.xml">
+      <configuration name="YourOrderPleaseShould (2)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -316,7 +348,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -341,7 +373,10 @@
     <MESSAGE value="Refactor - Extract operation as method" />
     <MESSAGE value="Red test - should_order_when_string_has_three_words" />
     <MESSAGE value="Green test - should_order_when_string_has_three_words" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green test - should_order_when_string_has_three_words" />
+    <MESSAGE value="Refactor - Class name changed" />
+    <MESSAGE value="Refactor - Tests' names changed" />
+    <MESSAGE value="Refactor - Anonymous extracted in a method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Anonymous extracted in a method" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -353,14 +388,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/YourOrderPleaseShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="192">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#162#163#0" expanded="true" />
             <element signature="e#235#236#0" expanded="true" />
             <element signature="e#946#947#0" expanded="true" />
             <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
           </folding>
         </state>
       </provider>

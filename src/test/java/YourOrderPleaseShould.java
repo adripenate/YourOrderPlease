@@ -46,10 +46,14 @@ public class YourOrderPleaseShould {
 
         private static Comparator<String> byIndex(){
             return (firstWord, secondWord) -> {
-                firstWord = firstWord.replaceAll("\\D+","");
-                secondWord = secondWord.replaceAll("\\D+","");
+                firstWord = getNumberIn(firstWord);
+                secondWord = getNumberIn(secondWord);
                 return (Integer.parseInt(firstWord) > Integer.parseInt(secondWord))? 1 : -1;
             };
+        }
+
+        private static String getNumberIn(String word) {
+            return word.replaceAll("\\D+", "");
         }
     }
 }
