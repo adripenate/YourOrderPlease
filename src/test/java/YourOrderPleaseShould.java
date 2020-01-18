@@ -29,9 +29,13 @@ public class YourOrderPleaseShould {
 
     private static class YourOrderPlease {
         public static String orderPhrase(String phrase) {
-            List<String> separateWords = Arrays.asList(phrase.split(" "));
+            List<String> separateWords = separateWordsIn(phrase);
             separateWords.sort(byIndex());
             return concatWords(separateWords);
+        }
+
+        private static List<String> separateWordsIn(String phrase) {
+            return Arrays.asList(phrase.split(" "));
         }
 
         private static String concatWords(List<String> separateWords) {
