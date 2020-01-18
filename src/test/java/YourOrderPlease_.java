@@ -20,7 +20,9 @@ public class YourOrderPlease_ {
 
     private static class YourOrderPlease {
         public static String orderPhrase(String phrase) {
-            return phrase;
+            if (!phrase.contains(" ")) return phrase;
+            String[] separateWords = phrase.split(" ");
+            return separateWords[1] + " " + separateWords[0];
         }
     }
 }
