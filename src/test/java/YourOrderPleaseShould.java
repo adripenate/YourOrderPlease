@@ -1,9 +1,5 @@
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class YourOrderPleaseShould {
@@ -27,33 +23,4 @@ public class YourOrderPleaseShould {
         assertThat(YourOrderPlease.orderPhrase("Jos3eph H1ello lit2tle")).isEqualTo("H1ello lit2tle Jos3eph");
     }
 
-    private static class YourOrderPlease {
-        public static String orderPhrase(String phrase) {
-            List<String> separateWords = separateWordsIn(phrase);
-            separateWords.sort(byIndex());
-            return concatWords(separateWords);
-        }
-
-        private static List<String> separateWordsIn(String phrase) {
-            return Arrays.asList(phrase.split(" "));
-        }
-
-        private static String concatWords(List<String> separateWords) {
-            String orderedPhrase = "";
-            for (String word: separateWords) orderedPhrase += word + " ";
-            return orderedPhrase.trim();
-        }
-
-        private static Comparator<String> byIndex(){
-            return (firstWord, secondWord) -> {
-                int firstNumber = getNumberIn(firstWord);
-                int secondNumber = getNumberIn(secondWord);
-                return (firstNumber > secondNumber)? 1 : -1;
-            };
-        }
-
-        private static int getNumberIn(String word) {
-            return Integer.parseInt(word.replaceAll("\\D+", ""));
-        }
-    }
 }

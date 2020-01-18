@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cbcb024-9e71-4d11-99ab-790adec7d756" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/YourOrderPlease.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/YourOrderPleaseShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YourOrderPleaseShould.java" afterDir="false" />
     </list>
@@ -31,14 +32,27 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/YourOrderPleaseShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="328">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#1815#1816#0" expanded="true" />
-                <element signature="e#1890#1891#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/YourOrderPlease.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding>
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,6 +75,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/YourOrderPlease_.java" />
+        <option value="$PROJECT_DIR$/src/main/java/YourOrderPlease.java" />
         <option value="$PROJECT_DIR$/src/test/java/YourOrderPleaseShould.java" />
       </list>
     </option>
@@ -113,6 +128,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="YourOrderPlease" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -125,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.YourOrderPleaseShould (2)">
+  <component name="RunManager" selected="JUnit.YourOrderPleaseShould">
     <configuration name="YourOrderPleaseShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YourOrderPlease" />
       <option name="PACKAGE_NAME" value="" />
@@ -136,15 +159,6 @@
       </method>
     </configuration>
     <configuration name="YourOrderPleaseShould (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="YourOrderPlease" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="YourOrderPleaseShould" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YourOrderPleaseShould (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YourOrderPlease" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="YourOrderPleaseShould" />
@@ -198,13 +212,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YourOrderPleaseShould.order_when_string_has_four_words" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YourOrderPlease" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YourOrderPleaseShould" />
+      <option name="METHOD_NAME" value="order_when_string_has_four_words" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.YourOrderPleaseShould" />
+        <item itemvalue="JUnit.YourOrderPleaseShould.order_when_string_has_four_words" />
         <item itemvalue="JUnit.YourOrderPleaseShould (2)" />
         <item itemvalue="JUnit.YourOrderPleaseShould (1)" />
-        <item itemvalue="JUnit.YourOrderPleaseShould" />
         <item itemvalue="JUnit.YourOrderPleaseShould (5)" />
-        <item itemvalue="JUnit.YourOrderPleaseShould (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -324,19 +348,24 @@
       <option name="project" value="LOCAL" />
       <updated>1579349564405</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Refactor - Unnecessary operation removed">
+      <created>1579349842370</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1579349842370</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Refactor - Operation extracted as method">
+      <created>1579349995288</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1579349995288</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YourOrderPlease__(2) - 2020.01.18 at 11h 56m 57s.xml">
-      <configuration name="YourOrderPlease_ (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YourOrderPlease__(2) - 2020.01.18 at 11h 57m 53s.xml">
-      <configuration name="YourOrderPlease_ (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="YourOrderPleaseShould_(1) - 2020.01.18 at 12h 02m 04s.xml">
-      <configuration name="YourOrderPleaseShould (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="YourOrderPleaseShould_(2) - 2020.01.18 at 12h 04m 22s.xml">
       <configuration name="YourOrderPleaseShould (2)" configurationId="JUnit" />
     </history-entry>
@@ -358,6 +387,15 @@
     <history-entry file="YourOrderPleaseShould_(1) - 2020.01.18 at 12h 16m 35s.xml">
       <configuration name="YourOrderPleaseShould (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="YourOrderPleaseShould_(2) - 2020.01.18 at 12h 19m 39s.xml">
+      <configuration name="YourOrderPleaseShould (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YourOrderPleaseShould_order_when_string_has_four_words - 2020.01.18 at 12h 20m 54s.xml">
+      <configuration name="YourOrderPleaseShould.order_when_string_has_four_words" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YourOrderPleaseShould - 2020.01.18 at 12h 21m 01s.xml">
+      <configuration name="YourOrderPleaseShould" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -376,7 +414,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,9 +445,24 @@
     <MESSAGE value="Refactor - Duplicated operation extracted as method" />
     <MESSAGE value="Refactor - Integer.parse operation moved to one place" />
     <MESSAGE value="Refactor - Operation steps extracted in method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Operation steps extracted in method" />
+    <MESSAGE value="Refactor - Unnecessary operation removed" />
+    <MESSAGE value="Refactor - Operation extracted as method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Operation extracted as method" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/YourOrderPlease.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
@@ -419,14 +472,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/YourOrderPleaseShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="328">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#1815#1816#0" expanded="true" />
-            <element signature="e#1890#1891#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
