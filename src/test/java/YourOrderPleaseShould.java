@@ -29,7 +29,6 @@ public class YourOrderPleaseShould {
 
     private static class YourOrderPlease {
         public static String orderPhrase(String phrase) {
-            if (!containsAnyWhiteSpace(phrase)) return phrase;
             List<String> separateWords = Arrays.asList(phrase.split(" "));
             separateWords.sort(byIndex());
             return concatWords(separateWords);
@@ -37,14 +36,8 @@ public class YourOrderPleaseShould {
 
         private static String concatWords(List<String> separateWords) {
             String orderedPhrase = "";
-            for (String word: separateWords) {
-                orderedPhrase += word + " ";
-            }
+            for (String word: separateWords) orderedPhrase += word + " ";
             return orderedPhrase.trim();
-        }
-
-        private static boolean containsAnyWhiteSpace(String phrase) {
-            return phrase.contains(" ");
         }
 
         private static Comparator<String> byIndex(){
