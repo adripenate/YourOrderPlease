@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cbcb024-9e71-4d11-99ab-790adec7d756" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/YourOrderPlease_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YourOrderPlease_.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,14 +31,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/YourOrderPlease_.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="75" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
+            <state relative-caret-position="221">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#162#163#0" expanded="true" />
                 <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,6 +110,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,8 +124,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.YourOrderPlease_.should_order_when_string_has_two_word">
-    <configuration name="YourOrderPlease_ (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.YourOrderPlease_">
+    <configuration name="YourOrderPlease_ (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YourOrderPlease" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YourOrderPlease_" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YourOrderPlease_ (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YourOrderPlease" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YourOrderPlease_" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YourOrderPlease_ (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YourOrderPlease" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="YourOrderPlease_" />
@@ -141,26 +161,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YourOrderPlease_.should_not_order_when_string_has_one_word" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="YourOrderPlease" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="YourOrderPlease_" />
-      <option name="METHOD_NAME" value="should_not_order_when_string_has_one_word" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YourOrderPlease_.should_not_order_when_string_is_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="YourOrderPlease" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="YourOrderPlease_" />
-      <option name="METHOD_NAME" value="should_not_order_when_string_is_empty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="YourOrderPlease_.should_order_when_string_has_two_word" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YourOrderPlease" />
       <option name="PACKAGE_NAME" value="" />
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.YourOrderPlease_.should_order_when_string_has_two_word" />
-        <item itemvalue="JUnit.YourOrderPlease_ (1)" />
         <item itemvalue="JUnit.YourOrderPlease_" />
-        <item itemvalue="JUnit.YourOrderPlease_.should_not_order_when_string_has_one_word" />
-        <item itemvalue="JUnit.YourOrderPlease_.should_not_order_when_string_is_empty" />
+        <item itemvalue="JUnit.YourOrderPlease_ (4)" />
+        <item itemvalue="JUnit.YourOrderPlease_ (3)" />
+        <item itemvalue="JUnit.YourOrderPlease_ (2)" />
+        <item itemvalue="JUnit.YourOrderPlease_.should_order_when_string_has_two_word" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +206,35 @@
       <option name="project" value="LOCAL" />
       <updated>1579346007809</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Red test - should_not_order_when_string_has_one_word">
+      <created>1579346146962</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579346146962</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Green test - should_not_order_when_string_has_one_word">
+      <created>1579346177758</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579346177758</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Red test - should_order_when_string_has_two_word">
+      <created>1579346305413</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579346305413</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Green test - should_order_when_string_has_two_word">
+      <created>1579346652416</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579346652416</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -218,6 +246,27 @@
     </history-entry>
     <history-entry file="YourOrderPlease_ - 2020.01.18 at 11h 13m 11s.xml">
       <configuration name="YourOrderPlease_" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YourOrderPlease__should_not_order_when_string_has_one_word - 2020.01.18 at 11h 15m 08s.xml">
+      <configuration name="YourOrderPlease_.should_not_order_when_string_has_one_word" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YourOrderPlease_ - 2020.01.18 at 11h 15m 18s.xml">
+      <configuration name="YourOrderPlease_" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YourOrderPlease__(1) - 2020.01.18 at 11h 16m 05s.xml">
+      <configuration name="YourOrderPlease_ (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YourOrderPlease__should_order_when_string_has_two_word - 2020.01.18 at 11h 17m 58s.xml">
+      <configuration name="YourOrderPlease_.should_order_when_string_has_two_word" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YourOrderPlease__(2) - 2020.01.18 at 11h 23m 29s.xml">
+      <configuration name="YourOrderPlease_ (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YourOrderPlease__(3) - 2020.01.18 at 11h 23m 39s.xml">
+      <configuration name="YourOrderPlease_ (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YourOrderPlease__(4) - 2020.01.18 at 11h 23m 55s.xml">
+      <configuration name="YourOrderPlease_ (4)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -255,7 +304,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Red test - should_not_order_when_string_is_empty" />
     <MESSAGE value="Green test - should_not_order_when_string_is_empty" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green test - should_not_order_when_string_is_empty" />
+    <MESSAGE value="Red test - should_not_order_when_string_has_one_word" />
+    <MESSAGE value="Green test - should_not_order_when_string_has_one_word" />
+    <MESSAGE value="Red test - should_order_when_string_has_two_word" />
+    <MESSAGE value="Green test - should_order_when_string_has_two_word" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green test - should_order_when_string_has_two_word" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -267,14 +320,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/YourOrderPlease_.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="75" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
+        <state relative-caret-position="221">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#162#163#0" expanded="true" />
             <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
           </folding>
         </state>
       </provider>

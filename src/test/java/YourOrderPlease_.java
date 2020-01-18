@@ -20,9 +20,13 @@ public class YourOrderPlease_ {
 
     private static class YourOrderPlease {
         public static String orderPhrase(String phrase) {
-            if (!phrase.contains(" ")) return phrase;
+            if (!containsAnyWhiteSpace(phrase)) return phrase;
             String[] separateWords = phrase.split(" ");
             return separateWords[1] + " " + separateWords[0];
+        }
+
+        private static boolean containsAnyWhiteSpace(String phrase) {
+            return phrase.contains(" ");
         }
     }
 }
