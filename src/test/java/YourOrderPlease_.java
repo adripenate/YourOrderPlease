@@ -1,5 +1,10 @@
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class YourOrderPlease_ {
@@ -26,8 +31,20 @@ public class YourOrderPlease_ {
     private static class YourOrderPlease {
         public static String orderPhrase(String phrase) {
             if (!containsAnyWhiteSpace(phrase)) return phrase;
-            String[] separateWords = phrase.split(" ");
-            return separateWords[1] + " " + separateWords[0];
+            List<String> separateWords = Arrays.asList(phrase.split(" "));
+
+            Comparator<String> byIndex = (firstWord, secondWord) -> {
+                firstWord = firstWord.replaceAll("\\D+","");
+                secondWord = secondWord.replaceAll("\\D+","");
+                return (Integer.parseInt(firstWord) > Integer.parseInt(secondWord))? 1 : -1;
+            };
+
+            separateWords.sort(byIndex);
+            String orderedPhrase = "";
+            for (String word: separateWords) {
+                orderedPhrase += word + " ";
+            }
+            return orderedPhrase.trim();
         }
 
         private static boolean containsAnyWhiteSpace(String phrase) {
