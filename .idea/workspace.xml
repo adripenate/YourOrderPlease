@@ -127,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.YourOrderPleaseShould (3)">
+  <component name="RunManager" selected="JUnit.YourOrderPleaseShould (4)">
     <configuration name="YourOrderPleaseShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YourOrderPlease" />
       <option name="PACKAGE_NAME" value="" />
@@ -147,6 +147,15 @@
       </method>
     </configuration>
     <configuration name="YourOrderPleaseShould (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YourOrderPlease" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YourOrderPleaseShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YourOrderPleaseShould (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YourOrderPlease" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="YourOrderPleaseShould" />
@@ -193,10 +202,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.YourOrderPleaseShould (4)" />
         <item itemvalue="JUnit.YourOrderPleaseShould (3)" />
         <item itemvalue="JUnit.YourOrderPleaseShould (2)" />
         <item itemvalue="JUnit.YourOrderPleaseShould (1)" />
-        <item itemvalue="JUnit.YourOrderPleaseShould" />
         <item itemvalue="JUnit.YourOrderPleaseShould" />
       </list>
     </recent_temporary>
