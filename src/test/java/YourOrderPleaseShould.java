@@ -32,13 +32,7 @@ public class YourOrderPleaseShould {
             if (!containsAnyWhiteSpace(phrase)) return phrase;
             List<String> separateWords = Arrays.asList(phrase.split(" "));
 
-            Comparator<String> byIndex = (firstWord, secondWord) -> {
-                firstWord = firstWord.replaceAll("\\D+","");
-                secondWord = secondWord.replaceAll("\\D+","");
-                return (Integer.parseInt(firstWord) > Integer.parseInt(secondWord))? 1 : -1;
-            };
-
-            separateWords.sort(byIndex);
+            separateWords.sort(byIndex());
             String orderedPhrase = "";
             for (String word: separateWords) {
                 orderedPhrase += word + " ";
@@ -48,6 +42,14 @@ public class YourOrderPleaseShould {
 
         private static boolean containsAnyWhiteSpace(String phrase) {
             return phrase.contains(" ");
+        }
+
+        private static Comparator<String> byIndex(){
+            return (firstWord, secondWord) -> {
+                firstWord = firstWord.replaceAll("\\D+","");
+                secondWord = secondWord.replaceAll("\\D+","");
+                return (Integer.parseInt(firstWord) > Integer.parseInt(secondWord))? 1 : -1;
+            };
         }
     }
 }
